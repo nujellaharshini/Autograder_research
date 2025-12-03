@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Mirror Gradescope’s env
+mkdir -p /autograder/results
+export PYTHONPATH="/autograder/submission:/autograder/source:${PYTHONPATH:-}"
+
+# Run the tests (writes /autograder/results/results.json)
+cd /autograder/source
+python3 run_tests.py

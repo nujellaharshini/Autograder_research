@@ -1,0 +1,34 @@
+Ways to get data from gradescope: 
+1. Download grades -> CSV files have: First Name, Last Name, SID, Email, Total Score, Max Points, Status, 
+    Submission ID, Submission Time, Lateness (H:M:S), View Count, Submission Count, 1: Autograder (100.0 pts)
+
+2. Download student's submitted code -> gives you a zip file 
+
+Tricky one: 
+3. We can get a machine-readible results.json file with their results 
+
+The test.py already imports JSONTestRunner and writes to RESULTS_JSON
+but this is only visible for Gradescope utils
+
+How can we access it?
+1. export all submissions -> rerun autograder locally in a container: cons - time consuming
+
+2. Screen-scrape -> not recommended, against the spirit of the platform
+
+3. Post to your server/S3:
+    - since the autograder already writes to result.json, we can upload the JSON somewhere we can control
+    - option 1: HTTPS endpoint (Flask on render or FastAPI)
+    - option 2: upload to S3 
+
+    Issues:
+    - technically yes outbound internet can access Gradescope
+    - But, universities are responsible for FERPA compliance, and exporting students work can be a violation if not approved. 
+    - If we do this, we won't be uploading names & emails, so we can use the submission IDs to match
+
+Sources: 
+https://saligrama.io/blog/gradescope-autograder-security/
+    - explotation of gradescope's autograder
+    - it works because the file doesn't check
+
+
+

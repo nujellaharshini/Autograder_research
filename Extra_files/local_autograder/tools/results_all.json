@@ -1,0 +1,3543 @@
+{
+  ".DS_Store": {
+    "error": "no results.json"
+  },
+  "submission_362578690": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_362639435": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: Ohm's law violated at index 0: V(0.0) != I(12.0)*R(3.0)\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: Ohm's law violated at index 0: V(0) != I(10)*R(2)\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: Ohm's law violated at index 0: V(0) != I(5)*R(1)\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: Ohm's law violated at index 0: V(0.0) != I(10.0)*R(2.0)\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: object of type 'NoneType' has no len()\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: Ohm's law violated at index 0: V(0) != I(5)*R(2)\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 50.0
+  },
+  "submission_362661277": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_362725259": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Ohms law is satisfied\n\nTest Failed: float() argument must be a string or a real number, not 'NoneType'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "output": "Ohms law is satisfied\nOhms law is satisfied\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "output": "Ohms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "output": "Ohms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "output": "Ohms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: object of type 'NoneType' has no len()\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "output": "Ohms law is satisfied\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "output": "Ohms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\nOhms law is satisfied\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 67.0
+  },
+  "submission_362747013": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_362760001": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_362833807": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.03",
+    "score": 80
+  },
+  "submission_362840016": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for *: 'float' and 'NoneType'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: 'NoneType' object is not iterable\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 67.0
+  },
+  "submission_363022973": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363047608": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363121457": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363144370": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: '>' not supported between instances of 'NoneType' and 'int'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 72.0
+  },
+  "submission_363216646": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: False is not true : Expected either 1200.0 J (left Riemann) or 2160.0 J (right Riemann) for the tested inputs\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: False is not true : Expected either 115.0 J (left sum) or 225.0 J (right sum) for the tested inputs\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 70.0
+  },
+  "submission_363228801": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363245996": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: 5.0 != 10.0 within 6 places (5.0 difference) : With V=5, I=2, R=2.5, expected power to be 10.0 W.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: None is not an instance of <class 'float'> : compute_energy must return a float.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 42.0
+  },
+  "submission_363264622": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.02",
+    "score": 80
+  },
+  "submission_363265356": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363272128": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363275707": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363276704": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363285344": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363285346": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363297613": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power() missing 1 required positional argument: 'resistance'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: None is not an instance of <class 'float'> : compute_power must return a float.\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: ValueError not raised : When V, I, and R are provided but do not satisfy Ohm's law, compute_power must raise a ValueError.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power must allow calling with only voltage and current (resistance should be optional).\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: unexpectedly None : Could not find a numeric power after 'Power computed:'.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: ValueError not raised : When the input lists are not all the same length, compute_energy must raise a ValueError.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: None is not an instance of <class 'float'> : compute_energy must return a float.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: ValueError not raised : When values do not satisfy Ohm's law at any point, compute_energy must raise a ValueError.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 0.0
+  },
+  "submission_363298044": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.04",
+    "score": 80
+  },
+  "submission_363301381": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power() missing 1 required positional argument: 'resistance'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: None is not an instance of <class 'float'> : compute_power must return a float.\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: ValueError not raised : When V, I, and R are provided but do not satisfy Ohm's law, compute_power must raise a ValueError.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power must allow calling with only voltage and current (resistance should be optional).\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: unexpectedly None : Could not find a numeric power after 'Power computed:'.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: ValueError not raised : When the input lists are not all the same length, compute_energy must raise a ValueError.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: None is not an instance of <class 'float'> : compute_energy must return a float.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: ValueError not raised : When values do not satisfy Ohm's law at any point, compute_energy must raise a ValueError.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: unsupported operand type(s) for -: 'NoneType' and 'float'\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 0.0
+  },
+  "submission_363301741": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363301837": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_363302892": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_364033753": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_364118867": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_364438897": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: Values do not satisfy Ohm's law\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: 10.0 != 20.0 within 6 places (10.0 difference) : With valid V, I, R, power should equal V*I.\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power raised an unexpected exception when called without resistance: Values do not satisfy Ohm's law\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: 5.0 != 10.0 within 6 places (5.0 difference) : With V=5, I=2, R=2.5, expected power to be 10.0 W.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: 24.0 != 72.0 within 6 places (48.0 difference)\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: False is not true : Expected either 1200.0 J (left Riemann) or 2160.0 J (right Riemann) for the tested inputs\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: False is not true : Expected either 115.0 J (left sum) or 225.0 J (right sum) for the tested inputs\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: 30.0 != 60.0 within 6 places (30.0 difference)\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: Values do not satisfy Ohm's law\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: False is not true : Expected either 140.0 J (left Riemann) or 290.0 J (right Riemann) for the tested inputs: ([0, 1, 2, 3], [5, 10, 15, 20], [2, 4, 6, 8], [2.5, 2.5, 2.5, 2.5]).\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.02",
+    "score": 18.0
+  },
+  "submission_364984527": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: Running your file raised an exception: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: None is not an instance of <class 'float'> : compute_energy must return a float.\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: can't multiply sequence by non-int of type 'list'\n",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 37.0
+  },
+  "submission_365161181": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power() missing 1 required positional argument: 'resistance'\n",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 0.0,
+        "max_score": 8,
+        "status": "failed",
+        "output": "Test Failed: compute_power must allow calling with only voltage and current (resistance should be optional).\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 0.0,
+        "max_score": 5,
+        "status": "failed",
+        "output": "Test Failed: object of type 'NoneType' has no len()\n",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 59.0
+  },
+  "submission_365241922": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  },
+  "submission_365789525": {
+    "tests": [
+      {
+        "name": "Ensures compute_power works correctly when resistance is omitted (optional parameter test).",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_hidden_valid_three_values_ohms_law (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p1_visible_invalid_ohms_law_raises (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_resistance_is_optional (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p1_visible_sample_main_power_print (test.TestPart1_ComputePower)",
+        "score": 8,
+        "max_score": 8,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_hidden_single_interval (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_valid_large_case (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_varying_valid (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "test_p2_hidden_with_resistance_validation (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "hidden"
+      },
+      {
+        "name": "If timepoints, voltage, current, and resistance lists do not have the same length,",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_constant_power_no_resistance (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_invalid_ohms_law_raises (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      },
+      {
+        "name": "test_p2_visible_sample_example (test.TestPart2_ComputeEnergy)",
+        "score": 5,
+        "max_score": 5,
+        "status": "passed",
+        "visibility": "visible"
+      }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "0.01",
+    "score": 80
+  }
+}

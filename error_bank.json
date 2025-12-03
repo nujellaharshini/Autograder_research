@@ -1,0 +1,102 @@
+{
+  "TYPE_NONE": {
+    "category": "Types / None handling",
+    "regex": [
+      "'NoneType' object is not",
+      "unsupported operand type\\(s\\).*'NoneType'",
+      "TypeError:.*NoneType",
+      "len\\(None\\)",
+      "(?i)(compare|comparing)\\s+None",
+      "(?i)None\\s*(\\+|\\*|/|//|-)\\s*\\d",
+      "(?i)\\d\\s*(\\+|\\*|/|//|-)\\s*None",
+      "(?i)len\\s*\\(\\s*None\\s*\\)"
+    ]
+  },
+  "FLOAT_ON_NONE": {
+    "category": "Types / None handling",
+    "regex": [
+      "float\\(\\) argument must be a string or a real number, not 'NoneType'",
+      "TypeError: float\\(\\).*NoneType",
+      "(?i)float\\(\\).*None",
+      "(?i)None.*float\\("
+    ]
+  },
+  "OUTPUT_MISMATCH": {
+    "category": "Output format",
+    "regex": [
+      "Did not find",
+      "Output mismatch",
+      "expected\\s+.*\\s+but\\s+got",
+      "does not match expected output"
+    ]
+  },
+  "MATH_OPS_INCORRECT": {
+    "category": "Math syntax / operations",
+    "regex": [
+      "(\\w|\\d)\\s*\\^\\s*(\\w|\\d)",            
+      "(?i)used\\s*\\^\\s*for\\s*exponent",        
+      "ZeroDivisionError",                        
+      "(?i)division\\s+by\\s+zero",
+      "(?i)math\\s+domain\\s+error",              
+      "OverflowError: (math|numerical) range error",
+      "TypeError:\\s*unsupported operand type\\(s\\) for (\\+|\\-|\\*|/|//|%|\\*\\*):",
+      "(?i)use\\s+//\\s+for\\s+integer\\s+division",
+      "(?i)use\\s+/\\s+for\\s+float\\s+division"
+    ]
+  },
+  "LOOP_NEVER_UPDATES": {
+    "category": "Loops",
+    "regex": [
+      "TimeLimitExceeded",
+      "timed out",
+      "infinite loop",
+      "tests? exceeded time limit"
+    ]
+  },
+  "LOOP_BAD_RANGE": {
+    "category": "Loops",
+    "regex": [
+      "off[- ]by[- ]one",
+      "range.*expected",
+      "expected.*(\\d+).*(got|was).*\\d+.*(items|length)"
+    ]
+  },
+  "FUNC_ARGS_ORDER": {
+    "category": "Functions",
+    "regex": [
+      "missing 1 required positional argument",
+      "takes.*positional arguments but.*were given",
+      "TypeError: .*\\(\\) missing required positional argument"
+    ]
+  },
+  "FUNC_MISSING_RETURN": {
+    "category": "Return values",
+    "regex": [
+      "function.*did not return a value",
+      "returned None",
+      "expected.*float.*got.*None(Type)?",
+      "AssertionError:.*return.*(float|number)"
+    ]
+  },
+  "TYPE_MIX_STR_INT": {
+    "category": "Strings / casting",
+    "regex": [
+      "can only concatenate str \\(not \"int\"\\) to str",
+      "unsupported operand type\\(s\\) for \\+: 'int' and 'str'",
+      "TypeError:.*(int).*\\+.*(str)"
+    ]
+  },
+  "FILE_PATH_ERROR": {
+    "category": "Files / I/O",
+    "regex": [
+      "No such file or directory",
+      "FileNotFoundError: \\[Errno 2\\]"
+    ]
+  }, 
+  "UNCLASSIFIED": {
+    "category": "Unclassified",
+    "regex": [
+      ".*"
+    ]
+  }
+}

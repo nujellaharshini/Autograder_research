@@ -7,4 +7,6 @@
 
 ![Prompt Engineering 3](pic4.svg)
 
+![NLP Pipeline](pic5.png)
+
 ![Example of Deployment Results](pic5.svg)
